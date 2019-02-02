@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.font-family{
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 20;
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AF2C25;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 25px;
+    display: block;
+    color: #212529;
+    text-align: center;
+    padding: 10px 17px;
+    text-decoration: none;
+}
+
+li:hover {
+    transition-duration: 1.2s;
+    background-color: #212529;
+}
+
+.link:hover {
+    transition-duration: 1.2s;
+    text-decoration: none;
+    color: #384bcb;
+}
+
+li:disabled {
+    transition-duration: 1s;
+}
+
+.background {
+    background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/flat-background-design-1.png');
+    background-attachment: fixed;
+}
+
+.content {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#django {
+    max-width: 550px;
+    margin: auto;
+}
+
+#question {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+}
